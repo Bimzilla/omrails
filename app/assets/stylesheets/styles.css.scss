@@ -1,0 +1,37 @@
+/*You cna change the font here. */
+
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
+$btnPrimaryBackground: green;
+/* This changed the background color of the main button.
+The subject name to do this was found here: http://twitter.github.com/bootstrap/customize.html#plugins */
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+/* This changes the background color of the navbar */
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+	/* This removed the shadow underneath the navbar */
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $gray;
+
+		/* The above pushes the footer 50 px below the lowest remaining  text/ The colors are imported from SASS*/
+	}
+}
