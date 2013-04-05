@@ -8,11 +8,17 @@
 	</head>
 	<body>
 		<%= render 'layouts/header' %>
+		<!-- This is pulling in all header layouts from a separate file -->
 		<div class="container">
-			
+
+			<% flash.each do |name, msg| %>
+				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+			<% end %>
+
 			<%= yield %>
 
 			<%= render 'layouts/footer' %>
+			<!-- This is pulling in all footer layouts from a separate file -->
 		</div>
 	</body>
 </html>

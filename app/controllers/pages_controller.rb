@@ -6,4 +6,10 @@ class PagesController < ApplicationController
   	#content
   	#rules
   end
+
+  def testing
+  	#content
+  	#rules
+  end
+
 end

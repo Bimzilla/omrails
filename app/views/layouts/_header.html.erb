@@ -1,4 +1,3 @@
-
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
@@ -11,18 +10,28 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">One Month Rails</a>
+      <%= link_to "One Month Rails", root_path, class: "brand" %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
         <ul class="nav">
+        	
 	        <li><%= link_to "Home", root_path %></li>
 			<li><%= link_to "About Us", about_path %></li>	
+			<li><%= link_to "Testing", testing_path %></li>
 		
 		</ul>
 		  <ul class="nav pull-right">
-	        <li><%= link_to "Login", '#' %></li>
+
+          <!-- This is an IF statement to conditionally show login or logout -->
+          <% if user_signed_in? %>
+            <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
+            <li><%= link_to "Logout", destroy_user_session_path, method: :delete  %></li>
+          <% else %>
+            <li><%= link_to "Login", new_user_session_path %></li>
+          <!-- The new_user_session_path is made with devise, and allows users to sign in -->
+          <% end %>
 		</ul>
 
       </div>
