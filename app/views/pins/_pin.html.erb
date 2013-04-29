@@ -1,6 +1,8 @@
     <tr> 
         <!-- Creates a table row -->
-      <td><%= pin.description %></td>
+      
+      <td><%= image_tag pin.image (:medium) %></td>
+      </td><td><%= pin.description %></td>
       <td><%= link_to 'Show', pin %></td>
       <% if current_user == pin.user %>
 	      <td><%= link_to 'Edit', edit_pin_path(pin) %></td>
