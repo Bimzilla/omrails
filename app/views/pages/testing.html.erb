@@ -1,15 +1,18 @@
-<h1>Testing 1-2-3</h1>
+<center>
+	<h1>Testing out responsive stuff</h1>
+</center>
 
-<p class="text-left">
-	<!--  Tells the text where to align -->
-
-	Bim is <em>awesome</em>. I'm just <br>
-	playing with commands on the left.
-</p>
-
+<center>
+	<img class="visible-desktop img-circle text-center" src="/View_Desktop.png"  style="width:200px; height: 200px;">
+</center>
+<!-- Added in an image fo me from /public, croppsed to 200w x 200h, in a circle, only visible on desktop -->
 <br>
-<br>
-<!-- Line breaks -->
+<center>
+	<img  class="visible-phone img-rounded text-center" src="/View_Mobile.png" style="width:200px; height: 200px;">
+</center>
+<center>
+	<img  class="visible-tablet img-rounded text-center" src="/View_Tablet.png" style="width:200px; height: 200px;">
+</center>
 
 <p class="text-center">
 	<abbr title="Brian Bimschleger">Bim</abbr>
@@ -19,95 +22,118 @@
 </p>
 
 <br>
-<br>
-<br>
-<br>
 
 <!-- Testing out adding an address on to a page -->
 <div class="row">
 	<div class="span4">
 		<!-- <div class="well"> -->
-		<a href="http://www.chiquita.com" target="_blank">
-			<img alt="Chiquita test" src="/Chiquitatest.png">
+		<a href="http://www.espn.com" target="_blank">
+			<center>
+				<img alt="Button" src="/Grey_Shower.png" style="width: 400px;">
+			</center>
 		</a>
 	<!-- 	<div class="img">
 			<img alt="Chiquita test" src="/Chiquitatest.png" style="width: 800px; height: 400px;">
 		</div> -->
 		<p class="text-center">
-			CHIQUITA
+			TEST
 		</p>
-		<p>
-			A whole bunch of text goes here. Really. Even more text should be palced here.
-		</p>
-		<p class="text-center">
- 		<%= link_to "See Chiquita", "http://espn.com", class: "btn btn-primary btn-large" %>
-		</p>
+		<small>
+			Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+		</small>
+		<br>
+		<!-- <p class="text-center"> -->
+ 		<center>	
+ 			<%= link_to "Button", "http://espn.com", class: "btn btn-primary btn-large" %>
+		</center>
+		<br>
+		<!-- </p> -->
+
 		<!-- </div> -->
 	</div>
 	<div class="span4 ">
 		<!-- <div class="well"> -->
-		<a href="http://www.chiquita.com" target="_blank">
-			<img class="hidden-phone" alt="Chiquita test" src="/Recycle.png">
-		</a>
-		<p>
-			Box2
+		<center>
+			<a href="http://www.chiquita.com" target="_blank">
+				<img class="hidden-phone" alt="Chiquita test" src="/Grey_Recycle.png" style="width: 400px;">
+			</a>
+		</center>
+		<p class="text-center">
+			RECYCLE
 			<br>
 			<a href="mailto:bimschleger@gmail.com">Email Me</a>
 		</p>
+		<small>
+			Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		</small>
 		<!-- </div> -->
 	</div>
 	<div class="span4 ">
 		<!-- <div class="well"> -->
-		<a href="http://www.chiquita.com" target="_blank">
-			<img alt="Chiquita test" src="/Recycle.png">
-		</a>
-		<p>
-			Box2
+		<center>
+			<a href="http://www.chiquita.com" target="_blank">
+				<img alt="Chiquita test" src="/Grey_Shower.png" style="width: 400px;">
+			</a>
+		</center>
+		<p class="text-center">
+			SHOWER
 			<br>
 			<a href="mailto:bimschleger@gmail.com">Seriously, email me</a>
 		</p>
+		<small>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+		</small>
 		<!-- </div> -->
 	</div>
 </div>
+<br>
 <div class="row">
 	<div class="span4">
-		<div class="well">
-			<img src="https://dl.dropbox.com/u/15223521/Modea.png" style="width: 250px; height: 100px;" class="img-circle" class="text-center">
-			<p>
-				CHIQUITA
-			</p>
-			<p>
-				A whole bunch of text goes here.
-			</p>
-		</div>
+		<!-- <div class="well"> -->
+		<img src="/Grey_Camera.png" style="width: 400px;">
+		<p class="text-center">
+			<em>CAMERA</em>
+		</p>
+		<small>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+		</small>
+		<!-- </div> -->
 	</div>
-	<div class="span2 ">
-		<div class="well">
-			<p>
-				Box2
-				<br>
-				<a href="mailto:bimschleger@gmail.com">bimschleger@gmail.com</a>
-			</p>
-		</div>
+	<div class="span4 ">
+		<!-- <div class="well"> -->
+		<img src="/Grey_Medical.png" style="width: 400px;">
+		<p class="text-center">
+			MEDICAL
+			<br>
+			<a href="mailto:bimschleger@gmail.com">bimschleger@gmail.com</a>
+		</p>
+		<small>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+		</small>
+		<!-- </div> -->
 	</div>
-	<div class="span2 offset3">
-		<div class="well">
-			<p>
-				Box3
-				<br>
-				<a href="mailto:bimschleger@gmail.com">bimschleger@gmail.com</a>
-			</p>
-		</div>
+	<div class="span4">
+		<!-- <div class="well"> -->
+		<img src="/Grey_Recycle.png" style="width: 400px;">
+		<p class="text-center">
+			MEDICAL
+			<br>
+			<a href="mailto:bimschleger@gmail.com">bimschleger@gmail.com</a>
+		</p>
+		<small>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+		</small>
+		<!-- </div> -->
 	</div>
 </div>
-<br>
-<br>
-<br>
+<!-- <div class="row">
+	<div class="span12">
+		<a href="http://www.bimzil.la" target="_blank">
+			<img src="/Grey_Camera.png" alt="Header">
+		</a>
+	</div>
+</div> -->
 
-<img class="visible-desktop img-circle text-center" src="/BimProfile.JPG"  style="width:200px; height: 200px;">
-<!-- Added in an image fo me from /public, croppsed to 200w x 200h, in a circle, only visible on desktop -->
-<br>
-<img  class="visible-phone img-rounded text-center" src="/BimProfile.JPG" style="width:200px; height: 200px;">
 <br>
 Testing out wrapping the code snippet <code>&lt;br&gt;</code> inline
 <br>
