@@ -7,8 +7,14 @@ $btnPrimaryBackground: green;
 /* This changed the background color of the main button.
 The subject name to do this was found here: http://twitter.github.com/bootstrap/customize.html#plugins */
 
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$navbarBackgroundHighlight: #636363;
+$navbarBackground: #636363;
+$navbarText: #BEBEBE;
+$navbarBrandColor: #BEBEBE;
+$navbarLinkColor: #BEBEBE;
+
+$textColor: #636363;
+
 /* This changes the background color of the navbar */
 
 @import 'bootstrap';
