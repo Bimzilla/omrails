@@ -17,26 +17,45 @@
       <div class="nav-collapse collapse">
 
         <!-- .nav, .navbar-search, .navbar-form, etc -->
-        <ul class="nav">
-	        <li><%= link_to "Home", root_path %></li>
-		      <li><%= link_to "About Us", about_path %></li>	
-			    <li><%= link_to "Testing", testing_path %></li>
+        <ul class="nav visible-desktop">
+          <!-- <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About Us", about_path %></li>  
+          <li><%= link_to "Testing", testing_path %></li> -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
+              <li><%= link_to "Home", root_path %></li>
+              <li><%= link_to "About Us", about_path %></li>  
+              <li><%= link_to "Sample", sample_path %></li>  
+              <li><%= link_to "Testing", testing_path %></li>
               <li class="divider"></li>
               <li class="nav-header">
-                Row Break
-              </li>
-              <li><a href="#">Page 4</a></li>
-              <li><a href="#">Page 5</a></li>
+                Work stuff
+                </li>
+              <!-- <li><%= link_to "Chiquita", chiquita_path %></li>
+              <li><%= link_to "Chiquita Avocados", chiquitaavocados_path %></li>  
+              <li><%= link_to "Prudential", prudential_path %></li>
+              <li><%= link_to "Aveda", aveda_path %></li>
+              <li><%= link_to "Smashbox", smashbox_path %></li>  
+              <li><%= link_to "Riunite Sweet Wine", riunitesweet_path %></li> -->
              </ul>
           </li>
     		</ul>
-
+        <ul class="nav hidden-desktop">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About Us", about_path %></li>
+          <li class="nav-header">
+                Row Break
+                </li>  
+          <li><%= link_to "Testing", testing_path %></li>
+          <li><%= link_to "Sample", sample_path %></li>  
+          <!-- <li><%= link_to "Chiquita", chiquita_path %></li>
+          <li><%= link_to "Chiquita Avocados", chiquitaavocados_path %></li>  
+          <li><%= link_to "Prudential", prudential_path %></li>
+          <li><%= link_to "Aveda", aveda_path %></li>
+          <li><%= link_to "Smashbox", smashbox_path %></li>  
+          <li><%= link_to "Riunite Sweet Wine", riunitesweet_path %> --></li>
+        </ul>
   		  <ul class="nav pull-right">
 
           <!-- This is an IF statement to conditionally show login or logout -->

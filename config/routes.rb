@@ -7,6 +7,13 @@ Omrails::Application.routes.draw do
 
 get 'about' => 'pages#about'
 get 'testing' => 'pages#testing'
+get 'chiquita' => 'pages#chiquita'
+get 'chiquitaavocados' => 'pages#chiquitaavocados'
+get 'smashbox' => 'pages#smashbox'
+get 'aveda' => 'pages#aveda'
+get 'prudential' => 'pages#prudential'
+get 'riunitesweet' => 'pages#riunitesweet'
+get 'sample' => 'pages#sample'
 
 root :to => 'pages#testing'
 
