@@ -92,4 +92,7 @@ class PagesController < ApplicationController
     #rules
   end 
 
+  def mygap
+  end
+
 end
