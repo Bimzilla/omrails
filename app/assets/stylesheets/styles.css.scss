@@ -1,24 +1,28 @@
 /*You can change the font here. */
 
-$baseFontFamily: 'Noto Sans', sans-serif;
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+$baseFontFamily: 'Roboto Slab', serif;
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 $btnPrimaryBackground: green;
 /* This changed the background color of the main button.
 The subject name to do this was found here: http://twitter.github.com/bootstrap/customize.html#plugins */
 
-$navbarBackgroundHighlight: #636363;
-$navbarBackground: #636363;
-$navbarText: #BEBEBE;
-$navbarBrandColor: #BEBEBE;
-$navbarLinkColor: #BEBEBE;
+/* Color scheme http://colorschemedesigner.com/#0E21Tw0w0w0w0 */
+
+$navbarBackgroundHighlight: #FF6F00;
+$navbarBackground: #FF6F00;
+$navbarText: #FFFFFF;
+$navbarBrandColor: #FFFFFF;
+$navbarLinkColor: #FFFFFF;
 $navbarLinkColorHover: #FFFFFF;
 $navbarLinkColorActive: #FFFFFF;
+$navbarLinkBackgroundHover: #009D91;
 
-$dropdownBackground: #636363;
-$dropdownLinkColor: #BEBEBE; 
+$dropdownBackground: #FF6F00;
+$dropdownLinkColor: #FFFFFF; 
 $dropdownLinkColorHover: #FFFFFF;
-$dropdownLinkBackgroundHover: #636363;
+$dropdownLinkBackgroundHover: #009D91;
+$navbarLinkBackgroundActive: #009D91;
 
 $textColor: #636363;
 
@@ -35,7 +39,7 @@ body {
 .navbar-inner {
 	@include box-shadow(green);
 	/*@include box-shadow(none !important);*/
-	border: 0;
+	border: 10;
 	/* This removed the shadow underneath the navbar */
 }
 
