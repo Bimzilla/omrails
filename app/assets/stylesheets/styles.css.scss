@@ -43,13 +43,81 @@ body {
 	/* This removed the shadow underneath the navbar */
 }
 
+#test {
+	background-color: #FF6F00;
+	color: #FFFFFF;
+	border: 5px solid #009D91;
+	text-align: center;
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+
+}
+
+#test:hover {
+	background-color: #009D91;
+	color: #FFFFFF;
+	border: 5px solid #FF6F00;
+	text-align: center;
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+.circle-logo {
+	height: 300px;
+	width: 300px;
+	background-color: #FF6F00;
+	color: #FFFFFF;
+	border: 5px solid #009D91;
+	border-radius: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0%;
+	padding-left: 0%;	
+}
+
+#logo {
+	padding-top: 45%;
+	padding-bottom: 45%;
+	font-size: 200%;
+}
+
 .footer {
 
 	margin-top: 50px;
-	color: #636363;
+	padding-top: 10px;
+	padding-bototm: 10px;
+	color: #FFFFFF;
+	background-color: #FF6F00;
+	border: 5px solid #009D91;
+	
 	a{
-		color: #BEBEBE;
+		color: #FFFFFF;
 
 		/* The above pushes the footer 50 px below the lowest remaining  text/ The colors are imported from SASS*/
 	}
+}
+
+.footer-header {
+	text-align: center;
+}
+
+.footer-text {
+	
+}
+
+#footer-button {
+	width: 100px;
+	margin: auto;
+	border: 5px solid #FFFFFF;
+	padding-top: 8px;
+	color: #FFFFFF;
+	text-dcoration: underline;
 }
