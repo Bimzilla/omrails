@@ -43,24 +43,62 @@ body {
 	/* This removed the shadow underneath the navbar */
 }
 
-#test {
+.logo {
 	background-color: #FF6F00;
 	color: #FFFFFF;
 	border: 5px solid #009D91;
 	text-align: center;
 	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-
 }
 
-#test:hover {
+.logo:hover {
 	background-color: #009D91;
 	color: #FFFFFF;
 	border: 5px solid #FF6F00;
 	text-align: center;
+}
+
+#modea-logo {
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+#chiquita-logo {
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+#avocados-logo {
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+#smashbox-logo {
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+#prudential-logo {
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
+#aveda-logo {
 	margin: auto;
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -83,11 +121,12 @@ body {
 	padding-left: 0%;	
 }
 
-#logo {
+#circle-text {
 	padding-top: 45%;
 	padding-bottom: 45%;
 	font-size: 200%;
 }
+
 
 .footer {
 
