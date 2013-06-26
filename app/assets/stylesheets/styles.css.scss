@@ -43,96 +43,22 @@ body {
 	/* This removed the shadow underneath the navbar */
 }
 
-.logo {
-	background-color: #FF6F00;
-	color: #FFFFFF;
-	border: 5px solid #009D91;
-	text-align: center;
-	margin: auto;
+#hamburger-menu {
+	height: 20px;
+	width: 30px;
 }
 
-.logo:hover {
+.btn-navbar {
+
 	background-color: #009D91;
-	color: #FFFFFF;
-	border: 5px solid #FF6F00;
-	text-align: center;
-}
 
-#modea-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
 }
-
-#chiquita-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#avocados-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#smashbox-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#prudential-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#aveda-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-.circle-logo {
-	height: 70%;
-	width: 70%;
-	background-color: #FF6F00;
-	color: #FFFFFF;
-	border: 5px solid #009D91;
-	border-radius: 100%;
-	text-align: center;
-	margin: auto;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0%;
-	padding-left: 0%;	
-}
-
-#circle-text {
-	padding-top: 45%;
-	padding-bottom: 45%;
-	font-size: 200%;
-}
-
 
 .footer {
 
 	margin-top: 50px;
 	padding-top: 10px;
-	padding-bototm: 10px;
+	padding-bottom: 10px;
 	color: #FFFFFF;
 	background-color: #FF6F00;
 	border: 5px solid #009D91;
@@ -146,17 +72,4 @@ body {
 
 .footer-header {
 	text-align: center;
-}
-
-.footer-text {
-	
-}
-
-#footer-button {
-	width: 100px;
-	margin: auto;
-	border: 5px solid #FFFFFF;
-	padding-top: 8px;
-	color: #FFFFFF;
-	text-decoration: underline;
 }

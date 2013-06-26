@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	$('.circle-logo' + id).animate({
-	    width: 600,
-	    height: 160
-	}, 2500);
-
+	$('#span4').hover() {
+		$('#aveda-logo').remove ();
+	});
 });
