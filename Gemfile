@@ -7,9 +7,9 @@ gem 'simple_form'
 gem "paperclip", "~> 3.0"
 gem 'newrelic_rpm'
 
+
 group :production do
 	gem 'pg'
-	gem 'bootstrap-sass', '~> 2.3.1.0'	
 end
 
 group :development, :test do
@@ -20,4 +20,5 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'bootstrap-sass', '~> 2.3.1.0'	
 end
