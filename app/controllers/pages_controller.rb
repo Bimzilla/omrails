@@ -7,9 +7,14 @@ class PagesController < ApplicationController
   	#rules
   end
 
-  def testing
+  def login
   	#content
   	#rules
+  end
+
+   def main
+    #content
+    #rules
   end
 
   def chiquita
@@ -93,6 +98,11 @@ class PagesController < ApplicationController
   end 
 
   def mygap
+  end
+
+  def construction
+    #content
+    #rules
   end
 
 end

@@ -1,0 +1,21 @@
+#chiquita-logo-client {
+	background-color: #FF6F00;
+	color: #FFFFFF;
+	border: 5px solid #009D91;
+	border-radius: 999px;
+	margin: auto;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-right: 25%;
+	padding-left: 25%;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.client-top {
+	margin-bottom: 50px;
+}
+
+.detail {
+	margin-bottom: 25px;
+}

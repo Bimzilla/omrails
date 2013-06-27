@@ -57,11 +57,9 @@ body {
 .footer {
 
 	margin-top: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
 	color: #FFFFFF;
 	background-color: #FF6F00;
-	border: 5px solid #009D91;
 	
 	a{
 		color: #FFFFFF;
@@ -70,6 +68,8 @@ body {
 	}
 }
 
-.footer-header {
+.footer-text {
+	margin: auto;
 	text-align: center;
+	padding-bottom: 5px;
 }

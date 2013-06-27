@@ -6,7 +6,9 @@ Omrails::Application.routes.draw do
   devise_for :users
 
 get 'about' => 'pages#about'
-get 'testing' => 'pages#testing'
+get 'construction' => 'pages#construction'
+get 'main' => 'pages#main'
+get 'login' => 'pages#login'
 get 'chiquita' => 'pages#chiquita'
 get 'chiquitaavocados' => 'pages#chiquitaavocados'
 get 'smashbox' => 'pages#smashbox'
@@ -25,7 +27,8 @@ get 'week7' => 'pages#week7'
 get 'week8' => 'pages#week8'
 get 'mygap' => 'pages#mygap'
 
-root :to => 'pages#testing'
+
+root :to => 'pages#construction'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
