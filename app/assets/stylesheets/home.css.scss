@@ -1,91 +1,7 @@
-.logo {
-	background-color: #FF6F00;
-	color: #FFFFFF;
-	border: 5px solid #009D91;
-	text-align: center;
-	margin: auto;
-	max-height: 300px;
-	border-radius: 5px;
-}
-
-.logo:hover {
-	background-color: #009D91;
-	color: #FFFFFF;
-	border: 5px solid #FF6F00;
-	text-align: center;
-}
-
-
-.logo-detail {
-	font-size: 1em;
-	padding: 10px 10px 10px 10px;
-}
-
-.test {
-	max-width: 400px;
-	margin: auto;
-}
-
-h3 {
-	text-align: center;
-}
-
-#modea-logo {
-	margin: auto;
-	padding-top: 22%;
-	padding-bottom: 22%;
-	padding-right: 30%;
-	padding-left: 30%;
-}
-
-#chiquita-logo {
-	margin: auto;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#avocados-logo {
-	margin: auto;
-	padding-top: 8%;
-	padding-bottom: 8%;
-	padding-right: 35%;
-	padding-left: 35%;
-}
-
-#smashbox-logo {
-	margin: auto;
-	padding-top: 20%;
-	padding-bottom: 20%;
-	padding-right: 25%;
-	padding-left: 25%;
-}
-
-#prudential-logo {
-	margin: auto;
-	padding-top: 13%;
-	padding-bottom: 13%;
-	padding-right: 30%;
-	padding-left: 30%;
-}
-
-#aveda-logo {
-	margin: auto;
-	padding-top: 22%;
-	padding-bottom: 21%;
-	padding-right: 23%;
-	padding-left: 23%;
-}
-
-.circle-logo {
-	height: 70%;
-	width: 70%;
-	background-color: #FF6F00;
-	color: #FFFFFF;
-	border: 5px solid #009D91;
-	border-radius: 999px;
-	text-align: center;
+.HomeBlock {
+	font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	color: #000000;
+	font-size: 20px;
 	margin: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -93,31 +9,30 @@ h3 {
 	padding-left: 0%;	
 }
 
-#circle-text-desk {
-	padding-top: 45%;
-	padding-bottom: 45%;
-	padding-left: 20%;
-	padding-right: 20%;
-	font-size: 200%;
+#HomeWork {
+	border: 2px solid #66CCFF ;
+	background-color: #FF6666;
 }
 
-#circle-text-tablet {
-	padding-top: 40%;
-	padding-bottom: 40%;
-	font-size: 200%;
+#homework:hover {
+	background-color: #66CCFF;
+	border: 0px ;
 }
 
-#circle-text-phone {
-	padding-top: 45%;
-	padding-bottom: 45%;
-	font-size: 200%;
+#Home-Play {
+	background-color: #66CCFF ;
 }
 
-#circle-text-construction {
-	padding-top: 45%;
-	padding-bottom: 45%;
-	padding-left: 20%;
-	padding-right: 20%;
-	font-size: 100%;
-	text-align: center;
+#home-play:hover {
+	background-color: #FFCC66 ;
+	border: 2px solid #000000;
+}
+
+#Home-Blog {
+	background-color: #FFCC66 ;
+}
+
+#Home-Blog:hover {
+	background-color: #66CCFF ;
+	border: 2px solid #FFFFFF;
 }

@@ -7,7 +7,7 @@
         <img src="/sample_Images/hamburger.png" id="hamburger-menu">
       </a>
 
-      <%= link_to "Brian Bimschleger", root_path, class: "brand" %>
+      <%= link_to "BIMSCHLEGER", root_path, class: "brand" %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
@@ -15,106 +15,18 @@
         <!-- DESKTOP NAVIGATION -->
 
         <ul class="nav visible-desktop">
-          <!-- <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About Us", about_path %></li>  -->
-          <li><%= link_to "main", main_path %></li>
-          <li><%= link_to "sample", sample_path %></li>
-          <li class="dropdown">
-            <!-- <li><%= link_to "Home", root_path %></li>
-            <li><%= link_to "About Us", about_path %></li>  --> 
-            <!-- <li><%= link_to "Sample", sample_path %></li>  --> 
-            <!-- <li><%= link_to "main", main_path %></li> -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Design Class <b class="caret"></b>
-              </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Design Home", design_path %></li>
-              <li class="divider"></li>
-              <li class="nav-header">
-                Homework
-                </li>
-              <li><%= link_to "My Gap", mygap_path %></li>
-              <li><%= link_to "Week 1", week1_path %></li>  
-              <li><%= link_to "Week 2", week2_path %></li>
-              <li><%= link_to "Week 3", week3_path %></li>
-              <li><%= link_to "Week 4", week4_path %></li>
-              <li><%= link_to "Week 5", week5_path %></li>
-              <li><%= link_to "Week 6", week6_path %></li>
-              <li><%= link_to "Week 7", week7_path %></li>
-              <li><%= link_to "Week 8", week8_path %></li>
-            </ul>
-
-          <!-- DESKTOP DROPDOWN FOR WORK -->
-
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              Work <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Chiquita", chiquita_path %></li>
-              <li><%= link_to "Chiquita Avocados", chiquitaavocados_path %></li>  
-              <li><%= link_to "Prudential", prudential_path %></li>
-              <li><%= link_to "Aveda", aveda_path %></li>
-              <li><%= link_to "Smashbox", smashbox_path %></li>  
-              <li><%= link_to "Riunite Sweet Wine", riunitesweet_path %></li>
-            </ul>
-          </li> -->
+          <li><%= link_to "work", work_path %></li>
+          <li><%= link_to "play", play_path %></li>
+          <li><a href="http://blog.bimschleger.com">Blog</a></li>
         </ul>
         
-        <!-- TABLET & MOBILE NAVICATION -->
+        <!-- TABLET & MOBILE NAVIGATION -->
 
         <ul class="nav hidden-desktop">
-          <!-- <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About Us", about_path %></li>
-          <li class="nav-header">
-                Row Break
-                </li>  -->
-          <li><%= link_to "main", main_path %></li>
-          <li><%= link_to "sample", sample_path %></li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">
-              Design Class
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Week 1", week1_path %></li>  
-              <li><%= link_to "Week 2", week2_path %></li>
-              <li><%= link_to "Week 3", week3_path %></li>
-              <li><%= link_to "Week 4", week4_path %></li>
-              <li><%= link_to "Week 5", week5_path %></li>
-              <li><%= link_to "Week 6", week6_path %></li>
-              <li><%= link_to "Week 7", week7_path %></li>
-              <li><%= link_to "Week 8", week8_path %></li>
-            </ul>
-          </li>
-
-          <!-- MOBILE DROPDOWN FOR WORK -->
-
-          <!-- <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">
-              Work
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Chiquita", chiquita_path %></li>
-              <li><%= link_to "Chiquita Avocados", chiquitaavocados_path %></li>  
-              <li><%= link_to "Prudential", prudential_path %></li>
-              <li><%= link_to "Aveda", aveda_path %></li>
-              <li><%= link_to "Smashbox", smashbox_path %></li>  
-              <li><%= link_to "Riunite Sweet Wine", riunitesweet_path %></li>
-            </ul>
-          </li> -->
+          <li><%= link_to "work", work_path %></li>
+          <li><%= link_to "play", play_path %></li>
+          <li><a href="http://blog.bimschleger.com">Blog</a></li>
         </ul>
-  		  <ul class="nav pull-right">
-
-          <!-- This is an IF statement to conditionally show login or logout -->
-          <% if user_signed_in? %>
-            <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
-            <li><%= link_to "Logout", destroy_user_session_path, method: :delete  %></li>
-          <% else %>
-            <li><%= link_to "Login", new_user_session_path %></li>
-          <!-- The new_user_session_path is made with devise, and allows users to sign in -->
-          <% end %>
-		    </ul>
       </div>
     </div>
   </div>

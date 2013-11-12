@@ -5,17 +5,11 @@ Omrails::Application.routes.draw do
 
   devise_for :users
 
-get 'about' => 'pages#about'
-get 'construction' => 'pages#construction'
+get 'home' => 'pages#home'
 get 'main' => 'pages#main'
-get 'login' => 'pages#login'
-get 'chiquita' => 'pages#chiquita'
-get 'chiquitaavocados' => 'pages#chiquitaavocados'
-get 'smashbox' => 'pages#smashbox'
-get 'aveda' => 'pages#aveda'
-get 'prudential' => 'pages#prudential'
-get 'riunitesweet' => 'pages#riunitesweet'
-get 'sample' => 'pages#sample'
+get 'work' => 'pages#work'
+get 'resume' => 'pages#resume'
+get 'play' => 'pages#play'
 get 'design' => 'pages#design'
 get 'week1' => 'pages#week1'
 get 'week2' => 'pages#week2'
@@ -28,7 +22,7 @@ get 'week8' => 'pages#week8'
 get 'mygap' => 'pages#mygap'
 
 
-root :to => 'pages#construction'
+root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

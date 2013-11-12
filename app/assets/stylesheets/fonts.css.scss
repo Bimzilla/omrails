@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic);
+
+h1 {
+	font-family: 'Open Sans' , sans-serif; font-weight: 600;
+	font-color: #000000;
+	font-size: 34px;
+}
+
+h2 {
+	font-family: 'Open Sans' , sans-serif; font-weight: 600;
+	font-color: #000000;
+	font-size: 24px;
+}
+
+h3 {
+	font-family: 'Open Sans' , sans-serif; font-weight: 600;
+	font-color: #FF6666;
+	font-size: 20px;
+}
+
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300;
+	font-color: #000000;
+	font-size: 18px;
+}
+
+.topic-timing {
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300; 
+	font-style: italic;
+	font-size: 18px;
+	font-color: #999999;
+}
+
+a {
+	font-color: #FF6666;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a:visited {
+	font-color: #000000;
+	text-decoration: underline;
+}

@@ -1,7 +1,5 @@
-/*You can change the font here. */
-
-$baseFontFamily: 'Roboto Slab', serif;
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import 'bootstrap';
+@import 'bootstrap-responsive';
 
 $btnPrimaryBackground: green;
 /* This changed the background color of the main button.
@@ -18,23 +16,9 @@ $navbarLinkColorHover: #FFFFFF;
 $navbarLinkColorActive: #FFFFFF;
 $navbarLinkBackgroundHover: #009D91;
 
-$dropdownBackground: #FF6F00;
-$dropdownLinkColor: #FFFFFF; 
-$dropdownLinkColorHover: #FFFFFF;
-$dropdownLinkBackgroundHover: #009D91;
-$navbarLinkBackgroundActive: #009D91;
-
-$textColor: #636363;
-
-/* This changes the background color of the navbar */
-
-@import 'bootstrap';
-
 body {
 	padding-top: 60px;
 }
-
-@import 'bootstrap-responsive';
 
 .navbar-inner {
 	@include box-shadow(green);
@@ -53,7 +37,7 @@ body {
 	background-color: #009D91;
 
 }
-
+/*
 .footer {
 
 	margin-top: 50px;
@@ -64,16 +48,10 @@ body {
 	border-radius: 5px;
 	height: 50px;
 	width: 98%;
-	
-	a{
-		color: #FFFFFF;
-
-		/* The above pushes the footer 50 px below the lowest remaining  text/ The colors are imported from SASS*/
-	}
 }
 
 .footer-text {
 	margin: auto;
 	text-align: center;
 	padding-bottom: 5px;
-}
+}*/
