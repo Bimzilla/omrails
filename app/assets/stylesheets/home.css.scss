@@ -1,38 +1,73 @@
-.HomeBlock {
+.CTA {
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
 	font-family: 'Open Sans' , sans-serif; font-weight: 300;
 	color: #000000;
 	font-size: 20px;
-	margin: auto;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0%;
-	padding-left: 0%;	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 8px;
 }
 
-#HomeWork {
-	border: 2px solid #66CCFF ;
+.CTA:hover {
+	background-color: #000000 ;
+	color: #FFFFFF;
+}
+
+.HomeWork {
 	background-color: #FF6666;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-size: 24px;
 }
 
-#homework:hover {
+.HomeWork:hover {
+	background-color: #000000;
+}
+
+.HomePlay {
 	background-color: #66CCFF;
-	border: 0px ;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+		font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-size: 24px;
 }
 
-#Home-Play {
-	background-color: #66CCFF ;
+.HomePlay:hover {
+	background-color: #000000;
 }
 
-#home-play:hover {
-	background-color: #FFCC66 ;
-	border: 2px solid #000000;
+.HomeBlog {
+	background-color: #FFCC66;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+		font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-size: 24px;
 }
 
-#Home-Blog {
-	background-color: #FFCC66 ;
+.HomeBlog:hover {
+	background-color: #000000;
 }
 
-#Home-Blog:hover {
-	background-color: #66CCFF ;
-	border: 2px solid #FFFFFF;
+.space {
+	margin-top: 50px;
 }
+
+
+

@@ -1,21 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic);
 
-h1 {
+h1, h2 {
 	font-family: 'Open Sans' , sans-serif; font-weight: 600;
 	font-color: #000000;
 	font-size: 34px;
 }
 
-h2 {
-	font-family: 'Open Sans' , sans-serif; font-weight: 600;
-	font-color: #000000;
-	font-size: 24px;
-}
-
 h3 {
-	font-family: 'Open Sans' , sans-serif; font-weight: 600;
-	font-color: #FF6666;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+	color: #FF6666;
 	font-size: 20px;
 }
 
@@ -26,11 +20,46 @@ p {
 	font-size: 18px;
 }
 
-.topic-timing {
-	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300; 
+.PageHead {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 600;
+}
+
+#work {
+	color: #FF6666;
+}
+
+#play {
+	color: #66CCFF ;
+}
+
+
+#blog {
+	color: #FFCC66 ;
+}
+
+.PageDescription {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300;
+	font-color: #000000;
+	font-size: 18px;
+}
+
+.SubjectTitle {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.SubjectDate {
 	font-style: italic;
 	font-size: 18px;
-	font-color: #999999;
+	color: #999999;
+}
+
+.SubjectLinks {
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300;
+	font-size: 18px;
+	padding-right: 25px;
 }
 
 a {
@@ -39,11 +68,6 @@ a {
 }
 
 a:hover {
-	font-color: #FFFFFF;
-	text-decoration: underline;
-}
-
-a:visited {
-	font-color: #000000;
+	font-color: #66CCFF;
 	text-decoration: underline;
 }
