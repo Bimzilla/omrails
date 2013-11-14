@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Bimschleger</title>
-	  <%= stylesheet_link_tag    "application", :media => "all" %>
-	  <%= javascript_include_tag "application" %>
-	  <%= csrf_meta_tags %>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bimschleger</title>
+		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<%= render 'layouts/header' %>
 		<!-- This is pulling in all header layouts from a separate file -->
 		<div class="container">
-
 			<% flash.each do |name, msg| %>
 				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
 			<% end %>
