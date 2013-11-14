@@ -1,37 +1,57 @@
 @import 'bootstrap';
 @import 'bootstrap-responsive';
 
-$btnPrimaryBackground: green;
-/* This changed the background color of the main button.
-The subject name to do this was found here: http://twitter.github.com/bootstrap/customize.html#plugins */
-
-/* Color scheme http://colorschemedesigner.com/#0E21Tw0w0w0w0 */
-
-$navbarBackgroundHighlight: #FF6F00;
-$navbarBackground: #FF6F00;
-$navbarText: #FFFFFF;
-$navbarBrandColor: #FFFFFF;
-$navbarLinkColor: #FFFFFF;
-$navbarLinkColorHover: #FFFFFF;
-$navbarLinkColorActive: #FFFFFF;
-$navbarLinkBackgroundHover: #009D91;
-
-body {
-	padding-top: 60px;
+.HeaderTitle { 
+	font-family: 'Open Sans Condensed' , sans-serif; font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+	color: #000000;
+	border: 1px solid #000000;
+	padding: 10px 0px 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.navbar-inner {
-	@include box-shadow(green);
-	/*@include box-shadow(none !important);*/
-	border: 10;
-	/* This removed the shadow underneath the navbar */
+.HeaderTitle:hover {
+	background-color: #000000;
+	color: #ffffff;
 }
 
-#hamburger-menu {
-	height: 20px;
-	width: 30px;
+.NavRow {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.btn-navbar {
-	background-color: #009D91;
+.NavItem {
+	font-family: 'Open Sans Condensed' , sans-serif;
+	color: #000000;
+	text-align: center;
+	padding: 5px 20px 5px 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.NavItem:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#Work:hover {
+	background-color: #FF6666;
+}
+
+#Play:hover {
+	background-color: #66CCFF;
+}
+
+#Blog:hover {
+	background-color: #FFCC66;
+}
+
+.footer {
+	margin-top: 70px;
+	text-align: center;
 }

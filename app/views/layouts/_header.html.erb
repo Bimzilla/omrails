@@ -1,33 +1,4 @@
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
- 
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <img src="/sample_Images/hamburger.png" id="hamburger-menu">
-      </a>
-
-      <%= link_to "BIMSCHLEGER", root_path, class: "brand" %>
- 
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-
-        <!-- DESKTOP NAVIGATION -->
-
-        <ul class="nav visible-desktop">
-          <li><%= link_to "work", work_path %></li>
-          <li><%= link_to "play", play_path %></li>
-          <li><a href="http://blog.bimschleger.com">Blog</a></li>
-        </ul>
-        
-        <!-- TABLET & MOBILE NAVIGATION -->
-
-        <ul class="nav hidden-desktop">
-          <li><%= link_to "work", work_path %></li>
-          <li><%= link_to "play", play_path %></li>
-          <li><a href="http://blog.bimschleger.com">Blog</a></li>
-        </ul>
-      </div>
-    </div>
+<div class="container">
+  <div class="row">
+    <a href="/"><div class="span4 offset4 HeaderTitle">BIMSCHLEGER</div></a>
   </div>
-</div>
