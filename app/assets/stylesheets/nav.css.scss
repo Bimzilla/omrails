@@ -27,9 +27,8 @@
 	font-family: 'Open Sans Condensed' , sans-serif;
 	color: #000000;
 	text-align: center;
-	padding: 5px 20px 5px 20px;
-	margin-left: 5px;
-	margin-right: 5px;
+	font-size: 20px;
+	margin: 0px 5px 0px 5px;
 	text-decoration: none;
 }
 
@@ -37,6 +36,18 @@
 	background-color: #000000;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.NavWork {
+	padding: 5px 20px 5px 20px;
+}
+     
+.NavBlog {
+	padding: 5px 22px 5px 22px;
+}
+
+.NavPlay {
+	padding: 5px 25px 5px 25px;
 }
 
 #Work:hover {
@@ -52,7 +63,7 @@
 }
 
 .footer {
-	margin-top: 70px;
+	margin: 70px 0px 20px 0px;
 	text-align: center;
 }
 
