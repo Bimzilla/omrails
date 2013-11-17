@@ -16,12 +16,8 @@
 
 .HomeWork {
 	background-color: #FF6666;
-	margin: auto;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 100px 100px 100px 100px;
 	color: #FFFFFF;
 	font-family: 'Open Sans' , sans-serif; font-weight: 300;
 	font-size: 24px;
@@ -33,14 +29,10 @@
 
 .HomePlay {
 	background-color: #66CCFF;
-	margin: auto;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 100px 100px 100px 100px;
 	color: #FFFFFF;
-		font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-family: 'Open Sans' , sans-serif; font-weight: 300;
 	font-size: 24px;
 }
 
@@ -50,17 +42,23 @@
 
 .HomeBlog {
 	background-color: #FFCC66;
-	margin: auto;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 100px 100px 100px 100px;
 	color: #FFFFFF;
-		font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-family: 'Open Sans' , sans-serif; font-weight: 300;
 	font-size: 24px;
 }
 
-.HomeBlog:hover {
+.HomeContact:hover {
 	background-color: #000000;
+}
+
+.HomeContact {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 100px 100px 100px 100px;
+	color: #FFFFFF;
+	font-family: 'Open Sans' , sans-serif; font-weight: 300;
+	font-size: 24px;
 }
