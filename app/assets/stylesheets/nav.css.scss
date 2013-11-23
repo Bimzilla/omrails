@@ -74,3 +74,42 @@ a span {
 .space {
 	margin-top: 30px;
 }
+
+.CTA-row {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.cta {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.cta:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.cta-arrow-up {
+	padding: 10px 30px 10px 30px;
+	margin-left: 0px;
+}
+
+.cta-twitter {
+	padding: 10px 30px 10px 30px;
+}
+
+.cta-linkedin {
+	padding: 10px 31px 10px 31px;
+}
+
+.cta-envelope {
+	padding: 10px 29px 10px 30px;
+	margin-right: 0px;
+}
