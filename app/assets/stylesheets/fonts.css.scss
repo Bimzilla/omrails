@@ -96,6 +96,7 @@ p {
 	font-style: italic;
 	font-size: 18px;
 	color: #999999;
+	padding-bottom: 3px;
 }
 
 .TopicMobile {
@@ -119,4 +120,13 @@ a {
 a:hover {
 	font-color: #66CCFF;
 	text-decoration: none;
+}
+
+li {
+	font-family: 'Open Sans Condensed', sans-serif; font-weight: 300;
+	font-size: 18px;
+}
+
+.bottomtest {
+	border-bottom: 1px solid #FF6666;
 }

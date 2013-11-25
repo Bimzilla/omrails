@@ -20,33 +20,35 @@
 }
 
 #verizon {
-	padding-top: 141px;
-	padding-bottom: 141px;
+	/*padding-top: 141px;
+	padding-bottom: 141px;*/
+	padding-top: 100%;
+	padding-bottom: 100%;
 }
 
 #smashbox {
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 145px;
+	padding-bottom: 145px;
 }
 
 #chiquita {
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 117px;
+	padding-bottom: 117px;
 	padding-left: 30%;
 	padding-right: 30%;
 }
 
 #prudential {
-	padding-top: 21px;
-	padding-bottom: 21px;
+	padding-top: 121px;
+	padding-bottom: 121px;
 }
 
 #riunite {
-	padding-top: 45px;
-	padding-bottom: 44px;
+	padding-top: 145px;
+	padding-bottom: 144px;
 }
 
-.fa-desc {
+.fa-li {
 	color: #ff6666;
 	padding: 0px 10px 4px 0px;
 }
@@ -57,8 +59,13 @@
 }
 
 .rowtest {
-	/*border-top: 1px solid #ff6666;*/
 	border-bottom: 2px solid #ff6666;
+}
+
+.rowtest2 {
+	background-color: #66CCFF;
+	/*padding: 20px 0 20px 0;*/
+	/*border: 1px solid #FF6666;*/
 }
 
 .ProjectDetail {
