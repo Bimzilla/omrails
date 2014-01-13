@@ -22,7 +22,7 @@ get 'week8' => 'pages#week8'
 get 'mygap' => 'pages#mygap'
 
 
-root :to => 'pages#home'
+root :to => 'pages#work'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
