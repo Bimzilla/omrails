@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,800);
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+    color: #3e3e3e;
+    }
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 1px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    color: #3e3e3e;
+    }
+
+.clientHeader {
+	padding: 10% 0px 20px 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+	.clientHeader p {
+		color: #fff;
+	}
+
+.ClientTopic {
+	padding: 50% 20px 10% 5px;
+
+}
+
+	.Chiquita {
+		background-color: #1e5998;
+	}
+		
+		.Chiquita h1 {
+			color: #fdde28;
+		}
+
+	.Prudential {
+		background-color: #2657a1;
+	}
+		
+		.Prudential h1 {
+			color: #f4c629;
+		}
+
+	.Aveda {
+		background-color: #452434;
+	}
+		
+		.Aveda h1 {
+			color: #e3cca0;
+		}
+
+	.Smashbox {
+		background-color: #000;
+	}
+		
+		.Smashbox h1 {
+			color: #d53731;
+		}
+
+	.Verizon {
+		background-color: #c52b2f;
+	}
+		
+		.Verizon h1 {
+			color: #fff;
+		}
+
+	.homepage {
+		background-color: #ff6666;
+	}
+
+		.homepage h1 {
+			color: #fff;
+		}
+
+.fa {
+	color: #3e3e3e;
+}
+
+.footer {
+	background-color: #CECECE;
+	padding: 50px 0px 50px 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.detail-icon {
+	color: #3e3e3e;
+	padding-right: 10px;
+}

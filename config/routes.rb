@@ -20,6 +20,12 @@ get 'week6' => 'pages#week6'
 get 'week7' => 'pages#week7'
 get 'week8' => 'pages#week8'
 get 'mygap' => 'pages#mygap'
+get 'chiquita' => 'pages#chiquita'
+get 'chiquita-appletrapper' => 'pages#chiquita-appletrapper'
+get 'aveda' => 'pages#aveda'
+get 'verizon' => 'pages#verizon'
+get 'smashbox' => 'pages#smashbox'
+get 'prudential' => 'pages#prudential'
 
 
 root :to => 'pages#work'

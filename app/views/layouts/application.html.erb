@@ -12,8 +12,9 @@
 
 		<!-- Bootstrap CSS & JS -->
 
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> -->
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
 		
 		<!-- Establishes responsive layout -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +45,6 @@
 	<body>
 		<%= render 'layouts/header' %>
 		<!-- This is pulling in all header layouts from a separate file -->
-		<div class="container">
 			<% flash.each do |name, msg| %>
 				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
 			<% end %>
@@ -53,10 +53,5 @@
 
 			<%= render 'layouts/footer' %>
 			<!-- This is pulling in all footer layouts from a separate file -->
-		
-		</div>
-
-			
-		
 	</body>
 </html>
