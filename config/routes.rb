@@ -26,9 +26,10 @@ get 'aveda' => 'pages#aveda'
 get 'verizon' => 'pages#verizon'
 get 'smashbox' => 'pages#smashbox'
 get 'prudential' => 'pages#prudential'
+get 'test' => 'pages#test'
 
 
-root :to => 'pages#work'
+root :to => 'pages#test'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

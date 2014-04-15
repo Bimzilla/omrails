@@ -59,4 +59,7 @@ class PagesController < ApplicationController
   def mygap
   end
 
+  def test
+  end
+
 end
